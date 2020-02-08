@@ -11,5 +11,5 @@ struct Cli {
 }
 
 fn main() {
-    println!("Hello, world!");
+    let args = Cli::from_args();
 }
